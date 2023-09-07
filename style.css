@@ -1,0 +1,350 @@
+.nav{
+    background-color: white;
+    z-index: 9;
+    padding-left: 10px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.2);
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+.logo img{
+    padding: 10px;
+}
+.nav_side{
+    float: right;
+    width: 60%;
+    margin: 30px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color:orange;
+    transition: all 1s ease;
+}
+.product h2{
+    padding-top: 80px;
+    text-align: center;
+}
+.product .product_container{
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .items{
+    margin: 10px;
+    width: 33.33%;
+    height: auto;  
+}
+.product .product_container .items:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.3);
+}
+.product .product_container .items .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .items .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .items .item_content a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+.product .product_container .items .item_content a:hover{
+    background-color: black;
+    color: orange;
+    transition: 0.5s;
+}
+.product .more_products{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin: 5px;
+}
+.product .more_products a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+.product .more_products a:hover{
+    background-color: black;
+    color: orange;
+    transition: 0.5s;
+}
+.testi{
+    padding: 50px;
+}
+.testi h2{
+    text-align: center;
+}
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_img img{
+    width: 80%;
+    height: 350px;
+    text-align: center;
+}
+.testi .testi_container .item .item_content{
+    padding: 10px;
+    font-size: 15px;
+}
+footer{
+    background-color: #34495E;
+    text-align: center;
+    padding: 50px;
+}
+footer .pages h3{
+    color: black;
+}
+footer .pages a{
+    text-decoration: none;
+    color: orange;
+    margin: 5px;
+}
+footer .doc h3{
+    color: black;
+}
+footer .doc a{
+    text-decoration: none;
+    color: orange;
+    margin: 5px;
+}
+footer .social h3{
+    color: black;
+}
+footer .social a{
+    text-decoration: none;
+    color: orange;
+    margin: 5px;
+}
+footer p{
+    color: black;
+}
+.about{
+    padding: 100px;
+}
+.about h1{
+    text-align: center;
+}
+.about iframe{
+    align-items: center;
+}
+.contact{
+    padding: 200px;
+}
+.contact h1{
+    text-align: center;
+}
+.contact iframe{
+    text-align: center;
+}
+.form{
+    width: 400px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.form h1{
+    padding-top: 100px;
+}
+.form .txt{
+    margin: 10px;
+    padding: 10px;
+}
+.form .submit{
+    padding: 10px;
+}
+.form .submit input{
+    background: blue;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+}
+.form .register{
+    padding-bottom:30px;
+}
+.form .register a{
+    text-decoration: none;
+    color: blue;
+}
+.faq{
+    padding: 100px;
+}
+.faq h1{
+    text-align: center;
+}
+.refund{
+    padding: 100px;
+}
+.refund h1{
+    text-align: center;
+}
+.about pre{
+    text-align: left;
+    size: 15px;
+}
+.feed{
+    text-align: center;
+    margin-left: 400px;
+    padding: 30px 30px;
+}
+.feed .box{
+    background-color: rgba(27, 80, 240, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+}
+.feed .box h2{
+    margin-bottom: 30px;
+}
+.feed .box .feed_form input{
+    width: 60%;
+    margin: 5px;
+}
+.feed .box .feed_form textarea{
+    width: 60%;
+    margin: 5px;
+}
+.feed .box .feed_form button{
+   background-color: blue;
+   color: white; 
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   padding: 5px 5px 5px 5px;
+}
+@media screen and (max-width:1024px){
+    .feed{
+        margin-left: 300px;
+    }
+    .product{
+        padding-top: 70px;
+    }
+    .form{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width:600px) {
+    .product{
+        padding-top: 100px;
+    }
+   .product .product_container {
+       display: grid;
+       text-align: center;
+       align-items: center;
+       width: 100%;
+       margin-left: 2%;
+       margin-right: 0%;
+   }
+.product .product_container .items{
+    text-align: center;
+    width: 90%;
+}
+   .feed{
+       margin-left: 10px;
+   } 
+   .feed .box{
+       width: 100%;
+   }
+   .nav{
+       display: grid;
+   }
+   .logo{
+       float: none;
+       width: 100%;
+   }
+   .nav_side{
+       width: 100%;
+   }
+   .testi{
+       padding: 0px;
+   }
+   .testi .testi_container .item .item_img{
+       height: 250px;
+       padding: 0px;
+   }
+   .form{
+      margin-left: 30px; 
+      width: 80%;
+
+   }
+   .faq{
+       padding: 10px;
+       padding-top: 200px;
+   }
+   .contact{
+        padding: 10px;
+        padding-top: 200px;
+   }
+   .contact iframe{
+       width: 80%;
+       height: 60%;
+   }
+   .about{
+    padding: 10px;
+    padding-top: 200px;
+   }
+   .about iframe{
+       width: 80%;
+       height: 60%;
+   }
+   .refund{
+    padding: 10px;
+    padding-top: 200px;
+   }
+
+}
